@@ -41,4 +41,7 @@ describe("factorial", () => {
   it("should return a positive integer", () => {
     expect(factorial(5)).toBe(120);
   });
+  it("should return a positive integer", () => {
+    expect(factorial(4)).toBe(24);
+  });
 });
